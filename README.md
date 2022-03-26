@@ -22,7 +22,7 @@ pod 'WDThreadAlive'
 
 ## Author
 
-weidongjiang, weidong17@satff.weibo.com
+weidongjiang
 
 ## License
 

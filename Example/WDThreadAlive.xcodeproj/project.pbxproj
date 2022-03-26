@@ -39,7 +39,7 @@
 /* Begin PBXFileReference section */
 		168B263C5BD427AD4B7EDACC /* Pods-WDThreadAlive_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WDThreadAlive_Example.debug.xcconfig"; path = "Target Support Files/Pods-WDThreadAlive_Example/Pods-WDThreadAlive_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		27450B7E1EA24BAF1619F689 /* Pods_WDThreadAlive_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WDThreadAlive_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2A565CAC7E5093C831EDE302 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		2A565CAC7E5093C831EDE302 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* WDThreadAlive_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WDThreadAlive_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -59,9 +59,11 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		63BD58C24A0DDD02E0CA35DF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		6652628CF72258CA42E3B031 /* WDThreadAlive.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = WDThreadAlive.podspec; path = ../WDThreadAlive.podspec; sourceTree = "<group>"; };
+		63BD58C24A0DDD02E0CA35DF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		6652628CF72258CA42E3B031 /* WDThreadAlive.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WDThreadAlive.podspec; path = ../WDThreadAlive.podspec; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7671642827EF093F00EB7407 /* WDPermenantThread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = WDPermenantThread.h; path = ../WDThreadAlive/Classes/WDPermenantThread.h; sourceTree = "<group>"; };
+		7671642927EF093F00EB7407 /* WDPermenantThread.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = WDPermenantThread.m; path = ../WDThreadAlive/Classes/WDPermenantThread.m; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ADFD0B620ABACCAE0D8F2EF8 /* Pods-WDThreadAlive_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WDThreadAlive_Tests.release.xcconfig"; path = "Target Support Files/Pods-WDThreadAlive_Tests/Pods-WDThreadAlive_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C43C66423E4C6B43A76E2B17 /* Pods_WDThreadAlive_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WDThreadAlive_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -181,6 +183,8 @@
 				6652628CF72258CA42E3B031 /* WDThreadAlive.podspec */,
 				63BD58C24A0DDD02E0CA35DF /* README.md */,
 				2A565CAC7E5093C831EDE302 /* LICENSE */,
+				7671642827EF093F00EB7407 /* WDPermenantThread.h */,
+				7671642927EF093F00EB7407 /* WDPermenantThread.m */,
 			);
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
@@ -193,7 +197,6 @@
 				CEC0732D05465C55B30C6C9C /* Pods-WDThreadAlive_Tests.debug.xcconfig */,
 				ADFD0B620ABACCAE0D8F2EF8 /* Pods-WDThreadAlive_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +261,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
