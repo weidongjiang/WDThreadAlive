@@ -1,0 +1,16 @@
+PODS:
+  - WDThreadAlive (0.1.0)
+
+DEPENDENCIES:
+  - WDThreadAlive (from `../`)
+
+EXTERNAL SOURCES:
+  WDThreadAlive:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WDThreadAlive: ef968ff9865a2b3362434633106a1e6db25dfb4e
+
+PODFILE CHECKSUM: f62686343e8485eec02ca17b9cc94210221e3d33
+
+COCOAPODS: 1.10.1

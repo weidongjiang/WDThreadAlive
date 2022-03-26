@@ -1,0 +1,22 @@
+{
+  "name": "WDThreadAlive",
+  "version": "0.1.0",
+  "summary": "A short description of WDThreadAlive.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/weidongjiang/WDThreadAlive",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "weidongjiang": "weidong17@satff.weibo.com"
+  },
+  "source": {
+    "git": "https://github.com/weidongjiang/WDThreadAlive.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "WDThreadAlive/Classes/**/*"
+}
